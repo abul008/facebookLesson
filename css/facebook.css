@@ -1,0 +1,451 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #f3f3f3 ;
+	font-family: inherit;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+.facebookTop{
+	display: flex;
+	background: white;
+	position: fixed;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 10;
+}
+.facebookSearch{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.facebookSearch #searchBox{
+	padding: 16px;
+    background: white;
+    position: absolute;
+    /*top: 8px;
+    left: 40px;*/
+    width: 304px;
+    z-index: -1;
+    border-radius: 8px;
+    top: 0px;
+    padding-top: 64px;
+    overflow: hidden;
+    box-shadow:0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    line-height: 38px;
+}
+/*#searchBox .searchBox{
+	width: 100%;
+    height: 174px;
+    padding: 16px;
+}*/
+
+#searchBox span{
+	font-size: 17px;
+    font-family: inherit;
+    display: flex;
+    font-weight: 500px;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+#searchBox span img{
+	width:21px;
+	height: 21px; 
+}
+.facebookSearch input[type=text] {
+  /*width: 100%;*/
+  box-sizing: border-box;
+  border:none;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  background-color: #f3f3f3 ;
+  background-image: url('https://www.freepnglogos.com/uploads/search-png/search-icon-transparent-images-vector-16.png');
+  background-position: 9px 9px; 
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 10px 40px;
+  border-radius: 50px;
+  outline: none;
+  
+
+}
+.facebookSearch input[type=text]:focus {
+  /*padding-left: 10px;*/
+  background-image: none;
+  padding: 12px 75px 12px 8px ;
+  transition: 0.7s;  
+}
+.facebookSearch a{
+	margin: 8px;
+}
+.facebookManu{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.facebookManu ul{
+	width: 50%;
+	justify-content: space-around;
+   display: flex;
+   list-style: none;
+}
+.facebookManu ul svg{
+	/*width: 28px;*/
+	height: 28px;
+	/*padding: 22px 36px ;*/
+	max-width: 122.28px;
+	color: #505050 ;
+	cursor: pointer;
+	/*padding: 12px 52px 9px 51px ;*/
+}
+.facebookManu ul li{
+	height: 48px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.facebookManu ul li:hover{
+	background: #d8d8d882;
+}
+.facebookRight{
+	display: flex;
+	align-items: center;
+}
+ .facebookGlavni ,.facebookButtonLeftTop ul{
+	display: flex;
+    align-items: center;
+    /*padding: 0px 17px 0px 12px;*/
+    /* border: 50px; */
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.facebookButtonLeftTop{
+	padding: 6px 9px;
+}
+.facebookGlavni img , .facebookButtonLeftTop img{
+	width: 30px;
+	height: 30px;
+    border-radius: 50%;
+    margin: 4px;
+}
+.facebookNav{
+	display: flex;
+}
+.facebookNav span svg{
+	width: 18px;
+    background: gainsboro;
+    padding: 12px;
+    border-radius: 50%;
+}
+.facebookNav span {
+	padding: 6px;
+}
+.facebookGlavni:hover{
+	background: #d8d8d882;
+	cursor: pointer;
+}
+.facebookButton{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	margin-top: 66px;
+}
+.facebookButtonLeft{
+	height: 90.5%;
+	justify-content: center;
+	position: fixed;
+	/*overflow: overlay;*/
+	flex-direction: column;
+	overflow: hidden;
+	padding-left: 4px;
+}
+.facebookButtonLeft:hover{
+	overflow: overlay;
+}
+.facebookButtonLeftTop ul{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	align-items: flex-start;
+	font-weight: 500;
+	font-family: inherit;
+	font-size: 16px;
+
+}
+.facebookButtonLeftTop ul img {
+	padding-right: 10px;
+}
+.facebookButtonLeftTop ul a{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	color: black;
+	width: 346px;
+	height: 52px;
+	font-family: system-ui;
+}
+.facebookButtonLeftTop ul a:hover{
+	background: #d8d8d882;
+}
+.facebookButtonLeftButton{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+}
+.facebookButtonLeftButton .facebookGlavni{
+	border-radius: 0px;
+}
+.facebookButtonLeftH2{
+	display: flex;
+	justify-content: space-between;
+	width: 320px;
+}
+.facebookGic{
+	border-bottom: solid 1px #a8a5a5fa;
+	padding: 3px;
+	margin-bottom: 10px;
+}
+.facebookButtonLeftH2 h2{
+	font-size: 20px;
+	color: grey;
+	margin-bottom: 10px;
+	font-family: fangsong ;
+}
+.facebookButtonLeftH2 span{
+	color: blue;
+	display: block;
+	padding: 7px;
+	align-items: center;
+}
+.facebookButtonLeftButton:hover > .facebookButtonLeftH2 span {
+	display: flex;
+}
+.facebookButtonLeftH2 span:hover{
+	background: #8080804d;
+	border-radius: 8px;
+}
+.facebookButtonLeftButton img{
+	padding-right: 10px;
+}
+.facebookButtonLeftButton ul li{
+	/*list-style: unset;*/
+	list-style: none;
+	float: left;
+}
+.facebookButtonLeftButton ul li a{
+	text-decoration: none;
+	color: #818181;
+	cursor: pointer;
+	float: left;	
+	padding-right: 10px;
+}
+.facebookButtonLeftButton ul li a:hover{
+	text-decoration: revert;
+}
+.facebookButtonLeft::-webkit-scrollbar {
+  width: 9px;
+  height: 8px;
+  
+}
+.facebookButtonLeft::-webkit-scrollbar-thumb{
+	background: #ced0d4;
+	border-radius: 8px;
+}
+.facebookButtonLeft::-webkit-scrollbar:hover{
+	/*box-shadow: 0px 2px 1px 2px #5a5d648a ;*/
+	width: 9px;
+    height: 8px;
+    background-color:#ced0d44f;
+}
+#facebookButtonUl{
+	display: none;
+}
+.facebookButtonCenter{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+.facebookButtonCenterTop{
+	display: flex;
+}
+.facebookButtonCenterTopStory{
+	display: flex;
+	flex-direction: column;
+}
+.storyA{
+	display: flex;
+	flex-direction: column;
+}
+
+.storyA img{
+    width: 120px;
+    height: 144px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+
+
+.storyb{
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    position: relative;
+    border-radius: 0px 0px 9px 9px ;
+}
+.storyb::before{	
+    content: "";
+    width: 38px;
+    height: 38px;
+    background-color: hsl(214deg 89% 52%);
+    background-image: url(https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-add-icon.png);
+    border: solid 6px white;
+    position: absolute;
+    left: 35px;
+    top: -25px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: 7.3px;
+
+}
+.storyb span{
+	font-size: 16px;
+	font-family: inherit;
+	-webkit-text-stroke: thin;
+}
+.storybtext{
+	display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+.storya{
+	width: 120px;
+	height: 215px;
+	display: flex;
+	position: relative;
+	
+}
+.storya img{
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+}
+/*.storya::before{
+	content: " ";
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background-size: cover;
+	border-radius: 50%;
+	border: solid 5px blue;
+	left: 2px;
+	background-image: url(https://images.pexels.com/photos/4195056/pexels-photo-4195056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}*/
+.storyaimg{
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	/*background-size: cover;
+	border-radius: 50%;
+	border: solid 4px #4949ee;
+	left: 11px;
+	top: 9px;*/
+	/*background-image: url(https://images.pexels.com/photos/4195056/pexels-photo-4195056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);*/
+}
+.storyaimg img{
+	width: 35px;
+	height: 35px;
+	/*position: absolute;*/
+	background-size: cover;
+	border-radius: 50%;
+	border: solid 4px #4949ee;
+	left: 11px;
+}
+.storyaspan{
+    top: 188px;
+    left: 14px;
+    position: absolute;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+.gamesWrapper{
+	width: 363px;
+    display: flex;
+    flex-direction: column;
+    margin: auto 577px;
+    text-align: center;
+}
+.gamesXL{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+.gamesXL .form{
+	display: flex;
+	/*flex-direction: column;*/
+	background: linear-gradient(#2193b0,#6dd5ed );
+}
+.gamesXL .form input{
+    width: 124px;
+    height: 112px;
+    font-size: 104px;
+    text-align: center;
+    background: none;
+    color: white;
+    outline: none;
+    border: solid 1px;
+    cursor: pointer;
+}
+.gamesXl .form input:hover{
+	background: blue;
+}
+.gamesWrapper h2{
+	color: #8b8b8b;
+	font-family: fangsong;
+}
+#buttonXl{
+	width: 225px;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    display: flex;
+    margin: auto;
+    background: #0df60d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 34px;
+    outline: none;
+    font-size: 26px;
+    cursor: pointer;
+    font-family: system-ui;
+}
+#buttonXl:hover{
+    background: #21b521;
+}
+.clossSpan,.clossSpan1,.clossSpan2,.clossSpan3{padding: 3px;}
+.clossSpan:hover{background: #bbbbbbba;border-radius: 50%;}
+.clossSpan1:hover{background: #bbbbbbba;border-radius: 50%;}
+.clossSpan2:hover{background: #bbbbbbba;border-radius: 50%;}
+.clossSpan3:hover{background: #bbbbbbba;border-radius: 50%;}
+
+
+

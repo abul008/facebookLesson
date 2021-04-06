@@ -1,0 +1,155 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{background: #f3f3f3;}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding-bottom: 112px;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	background: white;
+	padding-top: 12px;
+	font-size: 12px;
+	padding-top: 200px;
+}
+.forgotTop{
+	display: flex;
+    background: #355a9a;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 9px;
+}
+.forgotTop form{
+    display: flex;
+    line-height: 26px;
+    font-family: Helvetica, Arial, sans-serif ;
+    font-size: 12px;
+}
+.forgotTop form a {
+	color: #9cb4d8;
+	text-decoration: none;
+}
+.forgotTop form a:hover{
+	text-decoration:revert;
+}
+.forgotTop form input{
+	width: 142px;
+}
+.forgotTop form button{
+	width: 48px;
+	cursor: pointer;
+    height: 21px;
+    margin: auto 20px;
+    background: #4267b2;
+    color: white;
+    border-color: #29487d ;
+    border:none;
+}
+.forgotTop form label{
+	display: flex;
+	flex-direction: column;
+}
+.fec3{
+   display: flex;
+   margin: auto;
+   width: 992px;
+   flex-direction: column;
+}
+footer ul{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding-top: 10px;
+	flex-wrap: wrap;
+
+}
+footer ul li{padding-left: 8px}
+footer ul li a{
+	text-decoration: none;
+	color: #8a8d91;
+}
+footer .gic2{
+    
+    border-bottom: solid 1px #d5cece;
+    display: flex;
+    margin: 12px 0px;
+    width: 100%;
+}
+footer ul li a:hover{text-decoration: underline;}
+.forgotButton{
+	display: flex;
+	flex-direction: column;
+	font-family: inherit;
+	padding: 100px;
+}
+.forgotSing{
+	display: flex;
+	width: 555px;
+	padding:20px;
+	background-color: white;
+	
+	
+}
+.forgotButton .gic{
+	border-bottom: solid 1px #d1d1d1;
+	display: flex;
+	width: 100%;
+	margin-bottom: 18px;
+
+}
+.forgotButton label{
+	align-items: center;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.forgotinput{
+	margin-left: 74px;
+	line-height: 22px;
+}
+.forgotButton1{
+	display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    background: #f2f2f2;
+    border:1px solid #ccc;
+    padding: 12px;
+}
+.forgotButton1 button{
+	margin: 2px;
+	padding: 0 8px;
+	line-height: 22px;
+	cursor: pointer;
+}
+#forgotBtn1{
+	background: #365899;
+	border-color: #29487d;
+	color: white;
+}
+#forgotBtn1:hover{
+	background:  #325392;
+}
+.forgotButton #erroro{
+	width: 100%;
+	background-color: #ffebe8;
+	border: 1px solid #dd3c10;
+	line-height: 28px;
+	display: none;
+
+}
+#erroro h5 ,p{
+	margin-left: 10px;
+}
